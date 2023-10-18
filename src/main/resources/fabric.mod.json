@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "goodgrief",
+    "version": "${version}",
+    "name": "Good Grief!",
+    "description": "Implements better mob griefing rules",
+    "authors": [
+        "octylFractal"
+    ],
+    "contact": {
+        "homepage": "https://octyl.net",
+        "sources": "https://github.com/octylFractal/good-grief"
+    },
+    "license": "MPL-2.0",
+    "icon": "assets/goodgrief/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.octyl.mc.goodgrief.GoodGrief"
+        ]
+    },
+    "mixins": [
+        "goodgrief.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "fabric-api": "*"
+    }
+}
